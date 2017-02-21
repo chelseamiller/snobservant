@@ -1,7 +1,7 @@
 Date: 2017-02-20
-Title: Test title
+Title: Welcome.
 Category: snobbery
 Slug: test-slug
 Summary: test summary
 
-This is a test
+Nobody is immune to being pointed and laughed at.
