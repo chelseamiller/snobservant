@@ -1,7 +1,7 @@
 THEME = u'cleanliness'
 
-SITENAME = u'randomlyunique'
-SITEURL = u'http://www.randomlyunique.com'
+SITENAME = u'snobservant'
+SITEURL = u'http://www.snobservant.com'
 
 TIMEZONE = u'US/Pacific'
 DEFAULT_LANG = u'en'
