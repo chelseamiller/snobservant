@@ -1,0 +1,176 @@
+body {
+    padding-top: 0px;
+    font-family: "Avenir", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial";
+}
+
+.centered-div {
+    margin: 0 auto;
+}
+
+.table td {
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 900px;
+}
+
+h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 11.5px;
+}
+
+
+ul, ol {
+    font-size: 20px;
+    line-height: 125%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0a7bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+hr.line {
+    height: 7px;
+    margin: 0px;
+    background-color: #0a7bff;
+}
+
+.logo-header {
+    padding: 20.5px 15px;
+    font-size: 20px;
+}
+
+.unique-color {
+    color: #0a7bff;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+}
+
+.article-date {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #7a7a7a;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.header-summary {
+    font-weight: 300;
+    color: #333;
+}
+
+.entry-content a {
+    text-decoration: none;
+}
+
+.entry-content a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*aligns facebook and googleplus icons */
+.fb_iframe_widget > span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    height: 23px !important;
+}
+
+#___plusone_0 iframe {
+    margin-bottom: -2px !important;
+}
+
+/*center each image*/
+.image_center_style {
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+/*needed for the footer*/
+.vertical-align {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+    .entry-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #archives {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header-title {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .col-md-6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-header {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-title {
+        font-weight: bold;
+        font-size: 28px;
+        color: #333;
+    }
+
+    ul, ol {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .row.vertical-align {
+        display: block;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Archives - {{ SITENAME }}{% endblock %}
+
+{% block content %}
+    <section id="content">
+        <h3 class="header-title text-center">Archives</h3>
+        {#        {% include 'includes/google_adwords.html' %}#}
+        <div id="archives">
+            {% set previous_year = 2014 %}
+            {% for article in articles %}
+                {% if article.date.year != previous_year %}
+                    <h4 class="header-title text-center">{{ article.date.year }}</h4>
+                {% endif %}
+
+            <p class="article-text">
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>: {{ article.summary|striptags }}
+            </p>
+
+            {% set previous_year = article.date.year %}
+            {% endfor %}
+        </div>
+    </section>
+    <br><br>
+{% endblock %}

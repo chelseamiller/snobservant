@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock %}">
+
+<head>
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="{{ SITEURL }}/assets/favicon.ico">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.paper.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments-friendly.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+</head>
+<body>
+
+<nav class="navbar-default navbar-static-top">
+    <hr class="line">
+    <div class="container">
+
+            <div class="navbar-header pull-left">
+                <div class="logo-header ">
+                    <a href="{{ SITEURL }}/">Snobservant</span></a>
+
+                </div>
+            </div>
+
+            <div {% if category %} class="collapse navbar-collapse" {% endif %}>
+                <div class="navbar-header pull-right logo-header clearfix hidden-sm-up ">
+                    <span> by <a href="{{ SITEURL }}/misc/2016/about/">Chelsea Miller </a> </span>
+                </div>
+            </div>
+    </div>
+</nav>
+
+<div class="container">
+    {% block content %}
+    {% endblock %}
+</div>
+
+{% include 'includes/social-media.html' %}
+{% include 'includes/ga.html' %}
+</body>
+
+<script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+
+</body>
+</html>

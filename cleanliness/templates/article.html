@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title|striptags }} - {{ SITENAME }}{% endblock %}
+{% block html_lang %}{{ article.lang }}{% endblock %}
+
+{% block canonical_rel %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}">
+{% endblock %}
+
+{% block content %}
+    {% include 'article_content.html' %}
+{% endblock %}
