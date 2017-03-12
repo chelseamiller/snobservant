@@ -1,8 +1,3 @@
-{% extends "base.html" %}
+{% extends "article_list.html" %}
 
-{% block content %}
-    <section id="content">
-        {% set article = articles_page.object_list[0] %}
-        {% include 'article_content.html' %}
-    </section>
-{% endblock content %}
+{% block canonical_rel %}<link rel="canonical" href="{{ SITEURL }}">{% endblock %}

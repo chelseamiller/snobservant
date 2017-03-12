@@ -16,7 +16,7 @@ STATIC_PATHS = [u'assets']
 ARTICLE_URL = u'{category}/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = u'{category}/{date:%Y}/{slug}/index.html'
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 5
 AUTHOR_SAVE_AS = False
 TAG_SAVE_AS = False
 
