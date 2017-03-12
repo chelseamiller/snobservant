@@ -77,6 +77,13 @@ nav ul {
     margin-bottom: 2%;
 }
 
+.list-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 2%;
+}
+
 .article-date {
     margin-top: 5px;
     margin-bottom: 20px;

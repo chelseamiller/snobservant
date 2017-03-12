@@ -2,12 +2,15 @@
 {% set next_article = articles[next_index] %}
 
 <div class="container">
+  <br/><br/>
     <div class="col-md-12">
-        <h1 class="header-title"><a
+        <h3 class="list-title">Next Article:</h3>
+        <h4><a
         href="{{ SITEURL }}/{{ next_article.url }}">{{ next_article.title }}</a>
-        </h1>
-        <div class="summary">
-            <h5 class="header-summary"> {{ next_article.summary }}</h5>
-        </div>
+      </h4>
+        <!--<div class="summary">
+            <h5 class="header-summary"><i> {{ next_article.summary }}</i></h5>
+        </div>-->
     </div>
 </div>
+</br>
