@@ -143,6 +143,11 @@ p {
 }
 
 @media (max-width: 767px) {
+
+    article {
+      padding: 10px;
+    }
+
     .entry-content {
         padding-left: 10px;
         padding-right: 10px;

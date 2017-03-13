@@ -1,10 +1,10 @@
-Date: 2017-03-09
+Date: 2017-02-27
 Title: Scientific Studies Show Correlation between Anger and Road Rage
 Category: Science
 Slug: road-rage
-Summary: The scientific explanation for road rage.
+Summary: We have spare grant money and tenure.  Deal with it.
 
-On the behalf of ATP (Adams, Turnberg, and Peters) Researchers, I am pleased to bring about a new finding of our study, funded by Stanford School of Medicine and the Department of Motor Vehicles, to the scientific community.  Why do Homo Sapiens Sapiens engage in aggressive-aggressive, bestial, and territorial behavior while in their vehicles?  Folks, I have wrangled with this very question myself.  We, at ATP Researchers, have proposed a series of hypotheses in hopes of finding the key to alleviating this unspoken, detrimental, quandary in everyday life.  We have isolated numerous chemical, physical, and biological phenomenons, and assessed the possibilities of them being promoting factors of all the "bird flipping", aggression-to-horn transmissions, and "fuck you!"s that occur with considerable frequency on the streets of New York City, the sample of the American populace we studied.  
+On the behalf of ATP (Adams, Turnberg, and Peters) Researchers, I am pleased to bring about a new finding of our study, funded by Feelrealgood University and the Department of Motor Vehicles, to the scientific community.  Why do Homo Sapiens Sapiens engage in aggressive-aggressive, bestial, and territorial behavior while in their vehicles?  Folks, I have wrangled with this very question myself.  We, at ATP Researchers, have proposed a series of hypotheses in hopes of finding the key to alleviating this unspoken, detrimental, quandary in everyday life.  We have isolated numerous chemical, physical, and biological phenomenons, and assessed the possibilities of them being promoting factors of all the "bird flipping", aggression-to-horn transmissions, and "fuck you!"s that occur with considerable frequency on the streets of New York City, the sample of the American populace we studied.  
 
 Somewhere along the way, I had an epiphany of immeasurable magnitude, and I utilized my mental potential energy in order to support this discovery.  Every ion has a charge.  Every object encounters gravitational friction along Earth's surface.  While lamenting bitterly about the combustion following my hydrochloric acid (HCl) and ammonia mixture that damaged my surgeon-quality laboratory coat, I ruminated on the possibilities of opposing atomic charges (HCl and Ammonia, as I learned the hard way, have an unfavorable ionic compatibility) and interactions in the car and within the driver's  vocal cords and finger tips.  
 
